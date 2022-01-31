@@ -1,0 +1,212 @@
+.buy-tickets-card {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1200px;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: relative;
+}
+
+.headline {
+    margin-top: 80px;
+    width: 300px;
+    font-size: 27px;
+}
+
+.ticket-type {
+    width: 33%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+.ticket2, .ticket3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sale {
+    font-size: 23px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+
+.left-side {
+    display: flex;
+    width: 50%;
+    position: relative;
+    
+}
+
+.choose-ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:45px;
+    margin-left: 100px;
+    height: 45vh;
+    
+}
+
+.choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.minus, .plus {
+    width: 75px;
+    height: 75px;
+    font-size: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #343434;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.minus:active, .plus:active {
+    transform: translateY(2px);
+}
+
+.minus {
+    margin-right: 20px;
+}
+
+.plus {
+    margin-left: 20px;
+}
+
+.right-side {
+    width: 50%;
+   
+}
+
+.digit {
+    font-size: 22px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 60px;
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-container {
+    margin-top: 10px;
+    margin-right: 50px;
+    width: 130px;
+    height: 22vh;
+ 
+}
+
+.img {
+    width: 100%;
+}
+
+
+.time, .place {
+    font-size: 20px;
+    opacity: 0.6;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+
+.line {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    opacity: 0.5px;
+}
+
+
+
+.sum {
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.sumPrice {
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 170px;
+}
+
+.price {
+    margin-left: 200px;
+    font-weight: 800;
+}
+
+.kidprice {
+    font-weight: 800;
+    margin-left: 130px;
+}
+
+.left-end {
+    position: absolute;
+    bottom: 9%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  
+    width: 400px;
+    height: 100px;
+}
+
+.popcorn-div {
+    width: 22%;
+}
+
+.popcorn {
+    width: 100%;
+}
+
+.free-pop {
+    margin-left: 70px;
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.free {
+    margin-left: 70px;
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.popcorn-text {
+    width: 200px;
+    margin-left: 50px;
+}
